@@ -61,7 +61,14 @@
                     jasmineEnv.execute();
                 }
             })();
+			
         </script>
+		<script>
+			function onBackKeyDown()
+			{
+				mainView.router.back();
+			}
+		</script>
     </head>
     <body>
         <div id="stage" style="display:none;"></div>
